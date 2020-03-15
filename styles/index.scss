@@ -13,6 +13,8 @@ $normal-text-line-height: 160%;
 $learn-more-button-width: 170px; 
 $learn-more-button-height: 60px; 
 $learn-more-font-size: 18px; 
+$h2-font-size: 40px; 
+$cards-text-color: #4B5D68; 
 
 body {
     margin: 0; 
@@ -81,6 +83,8 @@ body {
 .section1 {
     display: flex; 
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
     padding: 10px;
     margin: 20px; 
     min-height: 100vh; 
@@ -114,4 +118,145 @@ body {
     border-radius: $demo-button-border-radius;
     color: #FFFFFF;
     font-size: $learn-more-font-size;  
+}
+
+
+.section2 {
+    display: flex; 
+    justify-content: center; 
+}
+.section2-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    max-width: 1117px; 
+    background-color:  rgba(240, 99, 184, 0.15);
+    border-radius: 50px; 
+}
+
+.section2__left {
+    padding: 20px; 
+    margin-left: 20px; 
+}
+
+.section2__right {
+    padding: 20px; 
+    margin-left: 20px; 
+}
+
+.section2-title {
+    font-size: $h2-font-size; 
+    color: $title-color; 
+}
+
+.section2-text {
+    font-size: $normal-text-font-size; 
+    line-height: $normal-text-line-height; 
+}
+
+.section3 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.section3-title {
+    font-size: $h2-font-size; 
+}
+
+.section3-description {
+    font-size: $normal-text-font-size; 
+    line-height: $normal-text-line-height; 
+    text-align: center; 
+}
+
+.section4 {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill 2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-gap: 20px; 
+}
+
+.card-search {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;  
+    padding: 10px; 
+
+    .search-title {
+        font-size: 24px; 
+        color: $title-color; 
+        line-height: 130%; 
+    }
+
+    .card-search-text {
+        color: $cards-text-color; 
+        line-height: $normal-text-line-height; 
+    }
+}
+
+.card-access {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;  
+    padding: 10px; 
+
+    .access-title {
+        font-size: 24px; 
+        color: $title-color; 
+        line-height: 130%; 
+    }
+
+    .card-access-text {
+        color: $cards-text-color;
+        line-height: $normal-text-line-height; 
+    } 
+    
+}
+
+.card-print {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;  
+    padding: 10px; 
+
+    .print-title {
+        font-size: 24px; 
+        color: $title-color; 
+        line-height: 130%; 
+    }
+
+    .card-print-text {
+        color: $cards-text-color; 
+        line-height: $normal-text-line-height; 
+    }
+    
+}
+
+.card-security {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;  
+    padding: 10px; 
+
+    .security-title {
+        font-size: 24px; 
+        color: $title-color; 
+        line-height: 130%; 
+    }
+
+    .card-security-text {
+        color: $cards-text-color; 
+        line-height: $normal-text-line-height; 
+    }
+
+}
+
+.learn-more {
+    font-weight: bold;
 }

@@ -62,6 +62,8 @@ body {
 .section1 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 10px;
   margin: 20px;
   min-height: 100vh;
@@ -97,121 +99,142 @@ body {
   font-size: 18px;
 }
 
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
-/*# sourceMappingURL=index.css.map */
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+.section2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1117px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+
+.section2__left {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.section2__right {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.section2-title {
+  font-size: 40px;
+  color: #212353;
+}
+
+.section2-text {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section3-title {
+  font-size: 40px;
+}
+
+.section3-description {
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.section4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill 2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.card-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-search .search-title {
+  font-size: 24px;
+  color: #212353;
+  line-height: 130%;
+}
+
+.card-search .card-search-text {
+  color: #4B5D68;
+  line-height: 160%;
+}
+
+.card-access {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-access .access-title {
+  font-size: 24px;
+  color: #212353;
+  line-height: 130%;
+}
+
+.card-access .card-access-text {
+  color: #4B5D68;
+  line-height: 160%;
+}
+
+.card-print {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-print .print-title {
+  font-size: 24px;
+  color: #212353;
+  line-height: 130%;
+}
+
+.card-print .card-print-text {
+  color: #4B5D68;
+  line-height: 160%;
+}
+
+.card-security {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-security .security-title {
+  font-size: 24px;
+  color: #212353;
+  line-height: 130%;
+}
+
+.card-security .card-security-text {
+  color: #4B5D68;
+  line-height: 160%;
+}
+
+.learn-more {
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=index.css.map */
