@@ -19,6 +19,7 @@ $cards-text-color: #4B5D68;
 body {
     margin: 0; 
     font-family: Muli; 
+    background-image: linear-gradient (yellow, red); 
 }
 
 .nav-container {
@@ -300,7 +301,7 @@ body {
     max-width: 645px; 
     padding: 20px; 
     margin-bottom: 50px; 
-    box-shadow: 0px 10px red; 
+    box-shadow: 0px 10px #7b57ad; 
     
     .profile-picture {
         padding: 20px; 
@@ -363,4 +364,66 @@ body {
     font-weight: $demo-button-font-weight; 
     box-shadow: $demo-button-shadow; 
     background-color: $demo-button-background; 
+}
+
+.footer-container {
+    display: grid; 
+    grid-template-columns: 3fr 1fr 1fr 2fr;  
+}
+
+.footer-left {
+    justify-self: center; 
+}
+
+.logo-container2 {
+    display: flex;
+    
+    .company-name {
+        font-size: 20px; 
+        font-weight: bold; 
+        margin-left: 15px; 
+    }
+}
+
+.address {
+    font-weight: bold; 
+    line-height: 29px; 
+}
+
+.copyright {
+    font-size: 12px; 
+    margin-top: 150px; 
+}
+
+.footer-center1 {
+    justify-self: end;  
+}
+
+.footer-center2 {
+    justify-self: center; 
+}
+
+.about-navigation, .help-navigation {
+    list-style-type: none; 
+    padding: 0px; 
+    line-height: 250%; 
+}
+
+
+.about-title, .help-title, .social-title {
+    font-weight: bold; 
+}
+
+.facebook, .twitter, .instagram {
+    padding-right: 10px; 
+    padding-top: 20px;  
+}
+
+.copyright-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.copyright {
+    grid-column: 2; 
 }
