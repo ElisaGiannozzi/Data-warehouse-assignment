@@ -20,6 +20,7 @@ body {
     margin: 0; 
     font-family: Muli; 
     background-image: linear-gradient (yellow, red); 
+    /*seems like I did not succeed with the gradient. why?*/
 }
 
 .nav-container {
@@ -28,6 +29,7 @@ body {
     grid-gap: 10px; 
     padding: 10px; 
 }
+
 
 .logo-container {
     grid-column: 2 / span 1; 
@@ -390,6 +392,15 @@ body {
     line-height: 29px; 
 }
 
+.email-address a{
+    color:  #212353; 
+    text-decoration: none; 
+}
+
+.email-address a:hover {
+    text-decoration: underline; 
+}
+
 .copyright {
     font-size: 12px; 
     margin-top: 150px; 
@@ -410,6 +421,40 @@ body {
 }
 
 
+.about-navigation a{
+    text-decoration: none; 
+    color: #212353;
+}
+
+.about-navigation a:hover {
+    font-weight: bold; 
+}
+
+.about-navigation a:visited {
+    font-weight: bold; 
+}
+
+.about-navigation a:active {
+    font-weight: bold; 
+}
+
+.help-navigation a{
+    text-decoration: none; 
+    color: #212353; 
+}
+
+.help-navigation a:hover {
+    font-weight: bold; 
+}
+
+.help-navigation a:visited {
+    font-weight: bold; 
+}
+
+.help-navigation a:active {
+    font-weight: bold; 
+}
+
 .about-title, .help-title, .social-title {
     font-weight: bold; 
 }
@@ -421,9 +466,10 @@ body {
 
 .copyright-container {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
 }
 
 .copyright {
     grid-column: 2; 
 }
+
