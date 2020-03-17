@@ -58,6 +58,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.demo-button:hover {
+  background-color: #E5E5E5;
+}
+
 .fa-arrow-right {
   margin-left: 5px;
   color: #9C69E2;
@@ -103,6 +107,10 @@ body {
   font-size: 18px;
 }
 
+.learn-more-button:hover {
+  background-color: #7b57ad;
+}
+
 .section2 {
   display: flex;
   justify-content: center;
@@ -116,7 +124,7 @@ body {
   flex-wrap: wrap;
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
-  max-height: 560px;
+  min-height: 560px;
 }
 
 .section2__left {
@@ -143,6 +151,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 30vh;
 }
 
 .section3-title {
@@ -159,7 +168,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 40px;
   min-height: 70vh;
 }
 
@@ -169,6 +178,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
+  justify-self: end;
+  background-image: url("../img/search-background.png");
+  background-repeat: no-repeat;
+  background-size: 350px 388px;
+  background-position: 100% 50%;
 }
 
 .card-search .search-title {
@@ -188,6 +202,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
+  justify-self: start;
+  background-image: url("../img/access-background.png");
+  background-repeat: no-repeat;
+  background-size: 350px 388px;
+  background-position: 100% 50%;
 }
 
 .card-access .access-title {
@@ -207,6 +226,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
+  justify-self: end;
+  background-image: url("../img/print-background.png");
+  background-repeat: no-repeat;
+  background-size: 350px 388px;
+  background-position: 100% 50%;
 }
 
 .card-print .print-title {
@@ -226,6 +250,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
+  justify-self: start;
+  background-image: url("../img/security-background.png");
+  background-repeat: no-repeat;
+  background-size: 350px 388px;
+  background-position: 100% 50%;
 }
 
 .card-security .security-title {
@@ -241,11 +270,14 @@ body {
 
 .learn-more {
   font-weight: bold;
+  text-decoration: none;
 }
 
 .section5 {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .section5-container {
@@ -275,7 +307,7 @@ body {
   background-color: #FFFFFF;
   border: none;
   border-radius: 50px;
-  max-width: 645px;
+  min-width: 645px;
   padding: 20px;
   margin-bottom: 50px;
   box-shadow: 0px 10px #7b57ad;
@@ -287,7 +319,6 @@ body {
 
 .testimonial-card .name {
   font-weight: bold;
-  -webkit-margin-before: 0;
   margin-block-start: 0;
   padding-top: 20px;
 }
@@ -295,9 +326,7 @@ body {
 .testimonial-card .website {
   color: #9C69E2;
   font-size: 14px;
-  -webkit-margin-after: 0;
   margin-block-end: 0;
-  -webkit-margin-before: 0;
   margin-block-start: 0;
 }
 
@@ -331,8 +360,14 @@ body {
   border-radius: 30%;
   color: #FFFFFF;
   font-family: Muli;
+  font-size: 16px;
   font-weight: bold;
   margin-right: 10px;
+  /*why is this button showing cut on the sides?*/
+}
+
+.learn-more-button2:hover {
+  background-color: #c75b9c;
 }
 
 .demo-button2 {
@@ -344,6 +379,10 @@ body {
   font-weight: bold;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   background-color: #FFFFFF;
+}
+
+.demo-button2:hover {
+  background-color: #E5E5E5;
 }
 
 .footer-container {
@@ -450,6 +489,194 @@ body {
   grid-column: 2;
 }
 
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
 /*# sourceMappingURL=index.css.map */
 /*# sourceMappingURL=index.css.map */
 /*# sourceMappingURL=index.css.map */
